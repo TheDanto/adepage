@@ -17,7 +17,7 @@ color: #777;
     min-height: 800px;
 }
 .bgimg2{
-    background-image: url("/img/bgimg2.jpg");
+    background-image: url("img/bgimg2.jpg");
     min-height: 800px;
 }
 .bgimg3{
