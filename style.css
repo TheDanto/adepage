@@ -103,11 +103,11 @@ color: #777;
     justify-content: flex-end;
 }
 
-#phone {
+/* #phone {
     width: 30px; 
     height: auto;
     margin-right: 10px;
-}
+} */
 
 #numbers {
     display: flex;
