@@ -117,7 +117,7 @@ color: #777;
 
 #tel1, #tel2 {
     display: block;
-    /* text-decoration: none; */
+    text-decoration: none;
     color: #777;
     font-size: 18px;
     margin: 2px 0;
