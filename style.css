@@ -1,133 +1,186 @@
 *{margin:0;
-padding:0;
-font: 400 15px/1.8 "Lato", sans-serif;
-color: #777;
-}
-.bgimg1, .bgimg2, .bgimg3, .bgimg4{
-    position: relative;
-    opacity: 0.6;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.bgimg1{
-    background-image: url("img/bgimg1.jpg");
-    min-height: 800px;
-}
-.bgimg2{
-    background-image: url("img/bgimg2.jpg");
-    min-height: 800px;
-}
-.bgimg3{
-    background-image: url("img/bgimg3.jpg");
-    min-height: 800px;
-}
-#line{
-    height: 20px;
-    background-color: aquamarine;
-}
-.bgimg4{
-    background-image: url("img/bgimg4.jpg");
-    min-height: 800px;
-}
-.caption{
-    position:absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-.caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
-  h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
-  }
-  a:hover{
-    color:red;
-  }
-  a{
-    font-size: 25px;
-  }
-  #placeholder, #sample{
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-    text-align: center;
-  }
-
-#sample-child{
-    color:  #fff;
-    text-align: center;
-    padding: 20px 0 20px 0;
-    background-color: #888;
-}
-#headline {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 50px; 
-}
-
-#logo-container {
-    flex: 0 0 auto; /* Logo po lewej */
-    width: 100px;
-}
-
-#contact-container {
-    text-align: right;
-    flex: 0 0 auto;
-}
-
-#kontakt {
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-#contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-/* #phone {
-    width: 30px; 
-    height: auto;
-    margin-right: 10px;
-} */
-
-#numbers {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-#tel1, #tel2 {
-    display: block;
-    text-decoration: none;
+    padding:0;
+    font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
-    font-size: 18px;
-    margin: 2px 0;
-}
-
-#tel1:hover, #tel2:hover {
-    color: red;
-    text-decoration: none;
-}
-#logo{
-    width: 150px;
-    height: auto;
-}
+    }
+    .bgimg1, .bgimg2, .bgimg3, .bgimg4{
+        position: relative;
+        opacity: 0.6;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+    .bgimg1{
+        background-image: url("img/bgimg1.jpg");
+        min-height: 800px;
+    }
+    .bgimg2{
+        background-image: url("img/bgimg2.jpg");
+        min-height: 800px;
+    }
+    .bgimg3{
+        background-image: url("img/bgimg3.jpg");
+        min-height: 800px;
+    }
+    #line{
+        height: 20px;
+        background-color: aquamarine;
+    }
+    .bgimg4{
+        background-image: url("/img/bgimg4.jpg");
+        min-height: 800px;
+    }
+    .caption{
+        position:absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+    }
+    .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+      }
+      h3 {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #111;
+      }
+      a:hover{
+        color:red;
+      }
+      a{
+        font-size: 25px;
+      }
+      #placeholder, #sample{
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+        text-align: center;
+      }
+    
+    #sample-child{
+        color:  #fff;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        background-color: #888;
+    }
+    #headline {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 50px; 
+    }
+    
+    #logo-container {
+        flex: 0 0 auto; /* Logo po lewej */
+        width: 100px;
+    }
+    
+    #contact-container {
+        text-align: right;
+        flex: 0 0 auto;
+    }
+    
+    #kontakt {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    #contact-info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    /* #phone {
+        width: 30px; 
+        height: auto;
+        margin-right: 10px;
+    } */
+    
+    #numbers {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    #tel1, #tel2 {
+        display: block;
+        /* text-decoration: none; */
+        color: #777;
+        font-size: 18px;
+        margin: 2px 0;
+    }
+    
+    #tel1:hover, #tel2:hover {
+        color: red;
+    }
+    #logo{
+        width: 150px;
+        height: auto;
+    }
+    #oferta{
+        position:absolute;
+        left: 0;
+        width: 100%;
+        top:75%;
+        text-align: center;
+        /* background: black; */
+        /* padding:18px; */
+    
+    }
+    #oferta span#ofertaspan{
+        background: blue;
+        padding:3%;
+        border-radius: 25px;
+        text-transform: uppercase;
+        font-size: 25px;
+        color:white;
+        cursor: pointer;
+    }
+    /* Modal - pełny ekran */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8); /* Ciemne tło */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Modal - zawartość */
+    .modal-content {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        width: 60%;
+        text-align: center;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        font-size: 32px;
+    }
+    
+    /* Przycisk zamknięcia */
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
