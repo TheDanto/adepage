@@ -125,6 +125,7 @@ color: #777;
 
 #tel1:hover, #tel2:hover {
     color: red;
+    text-decoration: none;
 }
 #logo{
     width: 150px;
